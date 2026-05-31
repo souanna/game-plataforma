@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dpdu5yy1yxe0i"
-path="res://.godot/imported/map-2.png-4100c9ce5a1857d751caf7901b9816f3.ctex"
+uid="uid://bp4v3pil3o4oa"
+path="res://.godot/imported/Brown_Tile_Terrain (16 x 16).png-dfca22fd895078f721995656d4cf6268.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Dungeon Platformer Tileset/Dungeon Platformer Tileset [16x16][FREE] - RottingPixels/map-2.png"
-dest_files=["res://.godot/imported/map-2.png-4100c9ce5a1857d751caf7901b9816f3.ctex"]
+source_file="res://sprites/Cave Tileset/Brown_Tile_Terrain (16 x 16).png"
+dest_files=["res://.godot/imported/Brown_Tile_Terrain (16 x 16).png-dfca22fd895078f721995656d4cf6268.ctex"]
 
 [params]
 
