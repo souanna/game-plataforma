@@ -403,7 +403,7 @@ position = Vector2(18, 21)
 
 [node name="terrain" type="TileMapLayer" parent="tiles" unique_id=676684120]
 z_index = -1
-tile_map_data = PackedByteArray("AAAWAAIAAAACAAAAAAAWAAMAAAAAAAMAAAAWAAQAAAAAAAMAAAAWAAUAAAACAAEAAAAWAAYAAAAAAAMAAAAWAAcAAAAAAAMAAAAAAAwAAAABAAMAAAABAAwAAAABAAMAAAACAAwAAAABAAMAAAADAAwAAAABAAMAAAAEAAUAAAAEAAQAAAAFAAUAAAABAAMAAAAGAAUAAAABAAMAAAAHAAUAAAAFAAMAAAAIAAoAAAAEAAQAAAAJAAoAAAABAAMAAAAKAAoAAAABAAMAAAALAAoAAAAFAAMAAAANAAgAAAAEAAQAAAAOAAQAAAAEAAQAAAAOAAgAAAABAAMAAAAPAAQAAAAFAAMAAAAPAAgAAAAFAAQAAAATAAIAAAAEAAMAAAATAAUAAAAEAAQAAAATAAgAAAAEAAQAAAAUAAIAAAABAAMAAAAUAAUAAAAAAAIAAAAUAAgAAAABAAMAAAAVAAIAAAABAAMAAAAVAAUAAAAAAAIAAAAVAAgAAAABAAMAAAAWAAgAAAAFAAMAAAAAAAsAAgAHAAoAAAAEAAwAAgACAAkAAAAFAAwAAgADAAkAAAAIAAUAAgADAAkAAAANAAQAAgABAAkAAAAQAAsAAgABAAkAAAARAAsAAgACAAkAAAASAAsAAgADAAkAAAAQAAgAAgADAAoAAAA=")
+tile_map_data = PackedByteArray("AAAWAAIAAAACAAAAAAAWAAMAAAAAAAMAAAAWAAQAAAAAAAMAAAAWAAUAAAACAAEAAAAWAAYAAAAAAAMAAAAWAAcAAAAAAAMAAAAAAAwAAAABAAMAAAABAAwAAAABAAMAAAACAAwAAAABAAMAAAADAAwAAAABAAMAAAAEAAUAAAAEAAQAAAAFAAUAAAABAAMAAAAGAAUAAAABAAMAAAAHAAUAAAAFAAMAAAAIAAoAAAAEAAQAAAAJAAoAAAABAAMAAAAKAAoAAAABAAMAAAALAAoAAAAFAAMAAAANAAgAAAAEAAQAAAAOAAQAAAAEAAQAAAAOAAgAAAABAAMAAAAPAAQAAAAFAAMAAAAPAAgAAAAFAAQAAAATAAIAAAAEAAMAAAATAAUAAAAEAAQAAAATAAgAAAAEAAQAAAAUAAIAAAABAAMAAAAUAAUAAAAAAAIAAAAUAAgAAAABAAMAAAAVAAIAAAABAAMAAAAVAAUAAAAAAAIAAAAVAAgAAAABAAMAAAAWAAgAAAAFAAMAAAAAAAsAAgAHAAoAAAAEAAwAAgACAAkAAAAFAAwAAgADAAkAAAAIAAUAAgADAAkAAAANAAQAAgABAAkAAAAQAAsAAgABAAkAAAARAAsAAgACAAkAAAASAAsAAgADAAkAAAASAAUAAgACAAkAAAA=")
 tile_set = SubResource("TileSet_brvut")
 
 [node name="decoration" type="TileMapLayer" parent="tiles" unique_id=2116919811]
@@ -413,29 +413,43 @@ tile_set = SubResource("TileSet_of57s")
 [node name="background" type="ParallaxBackground" parent="." unique_id=1132082943]
 
 [node name="l1" type="ParallaxLayer" parent="background" unique_id=1052570260]
+texture_repeat = 2
 motion_scale = Vector2(0.1, 0.1)
 
 [node name="Sprite2D" type="Sprite2D" parent="background/l1" unique_id=29274193]
+texture_repeat = 2
 texture = ExtResource("4_of57s")
 centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 576, 208)
 
 [node name="l2" type="ParallaxLayer" parent="background" unique_id=855063058]
+texture_repeat = 2
 motion_scale = Vector2(0.2, 0.2)
 
 [node name="Sprite2D" type="Sprite2D" parent="background/l2" unique_id=1409073261]
+texture_repeat = 2
 texture = ExtResource("5_b5f6u")
 centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 576, 208)
 
 [node name="l3" type="ParallaxLayer" parent="background" unique_id=387288449]
 motion_scale = Vector2(0.3, 0.3)
 
 [node name="Sprite2D" type="Sprite2D" parent="background/l3" unique_id=725584064]
+texture_repeat = 2
 texture = ExtResource("6_tqoya")
 centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 576, 208)
 
 [node name="l4" type="ParallaxLayer" parent="background" unique_id=94106038]
 motion_scale = Vector2(0.4, 0.4)
 
 [node name="Sprite2D" type="Sprite2D" parent="background/l4" unique_id=1887437397]
+texture_repeat = 2
 texture = ExtResource("7_k65ib")
 centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 576, 208)
